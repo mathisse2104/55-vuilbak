@@ -5,7 +5,7 @@ local trashModels = {
     `prop_dumpster_02a`
 }
 
--- target interactie
+-- target interaction
 CreateThread(function()
     for _, model in pairs(trashModels) do
         exports.ox_target:addModel(model, {
@@ -21,7 +21,7 @@ CreateThread(function()
     end
 end)
 
--- Ontvang stash-ID en open inventory
+-- receive stash-ID abd open inventory
 RegisterNetEvent('vuilbak:openInventory', function(stash)
     Wait(100)
     TriggerEvent('ox_inventory:openInventory', 'stash', stash)
