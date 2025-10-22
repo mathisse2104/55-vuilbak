@@ -8,7 +8,7 @@ local function sendDiscordWebhook(message)
         return
     end
     
- -- datum/tijd
+ -- date/time
     local timestamp = os.date("%Y-%m-%d %H:%M:%S")
 
     local webhookData = {
@@ -34,7 +34,7 @@ local function sendDiscordWebhook(message)
 end
 
 
--- Vuilbak event
+-- Trashcan event
 RegisterNetEvent('vuilbak:open', function()
     local src = source
     local playerName = GetPlayerName(src)
