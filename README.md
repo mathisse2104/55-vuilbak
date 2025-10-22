@@ -1,4 +1,4 @@
-🗑️ 55_Vuilbak (Trash System)
+🗑️ 55_Trashcan
 
 A lightweight FiveM trash bin system using ox_inventory and ox_target.
 Players can throw items into trash bins, and after a configurable time, the items are automatically deleted and logged to a Discord webhook.
@@ -9,9 +9,9 @@ Interact with trash bins (ox_target)
 
 Temporary stash creation
 
-Automatic item deletion 
+Automatic item deletion
 
-Discord webhook logging 
+Discord webhook logging
 
 📦 Requirements
 ox_inventory
@@ -22,22 +22,23 @@ ox_lib
 You can edit everything in shared.lua:
 
 Shared.Config = {
-    DeleteItems = 15, -- Time (seconds) before items are deleted
+DeleteItems = 15, – Time (seconds) before items are deleted
 
-    Discord = {
-        Enabled = true,
-        WebhookURL = "YOUR_WEBHOOK_URL",
-        Username = "55 Development",
-        AvatarURL = "https://mathisse.nl/logo.png",
-        Titel = "♻️ Trash Log",
-        Color = 3447003,
-        FooterText = "55 Development"
-    }
+Discord = {
+    Enabled = true,
+    WebhookURL = "YOUR_WEBHOOK_URL",
+    Username = "55 Development",
+    AvatarURL = "https://mathisse.nl/logo.png",
+    Titel = "♻️ Trash Log",
+    Color = 3447003,
+    FooterText = "55 Development"
 }
-
+}
 
 📄 Credits
 
 Developed by 55 Development
-Website: mathisse.nl
-Discord: discord.mathisse.nl
+Website: https://mathisse.nl/
+Discord: https://discord.mathisse.nl/
+Youtube Preview: https://www.youtube.com/watch?v=TJKtpVAElSQ&feature=youtu.be
+Github Link: https://github.com/mathisse2104/55-vuilbak
