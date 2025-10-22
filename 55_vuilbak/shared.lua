@@ -1,11 +1,11 @@
 Shared = {}
 
 
--- De seconden wanneer items in de vuilbak verwijderd worden
+-- The seconds when the item will be deleted.
 Shared.Config = {
     DeleteItems = 15,  
 
--- Discord log systeem
+-- Discord log system
 Discord = {
     Enabled = false,
     WebhookURL = "",
@@ -16,7 +16,7 @@ Discord = {
     ThumbnailURL= "https://mathisse.nl/logo.png",
     FooterIconURL = "https://mathisse.nl/logo.png",
     
-    -- Embed Informatie
+    -- Embed Information
     Titel = "♻️ Vuilbak Log",
     Color = 3447003,
     
