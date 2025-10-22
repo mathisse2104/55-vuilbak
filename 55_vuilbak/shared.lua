@@ -1,7 +1,7 @@
 Shared = {}
 
 
--- The seconds when the item will be deleted.
+-- The seconds when that the item will be deleted.
 Shared.Config = {
     DeleteItems = 15,  
 
